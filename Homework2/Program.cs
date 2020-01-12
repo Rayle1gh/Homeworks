@@ -6,12 +6,10 @@ namespace Homework2
     {
         static void Main(string[] args)
         {
-            double x;
-            double y;
             Console.WriteLine("Введите первое число:");
-            x = Convert.ToDouble(Console.ReadLine());
+            double x = double.Parse(Console.ReadLine());
             Console.WriteLine("Введите второе число:");
-            y = Convert.ToDouble(Console.ReadLine());
+            double y = double.Parse(Console.ReadLine());
             var a = x + y;
             var b = x - y;
             var c = x * y;
